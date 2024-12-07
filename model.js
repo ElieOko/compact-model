@@ -52,6 +52,9 @@ class CompactModelProxy extends CompactRemoteConnexion{
         return `/${compress}${this.destory}`
     }
     
+    currentModelDefaut(){
+        return this.#getChildName();
+    }
     getAll(model){
         const url = this.#_list(model);
         return this.getAllData(url)
