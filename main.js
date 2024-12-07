@@ -1,3 +1,6 @@
 const ModelCompact = require("./model").CompactModelProxy;
 
-module.exports.add = ModelCompact;
+class Test extends ModelCompact{}
+const child = new Test();
+console.log(child.currentModelDefaut());
+//module.exports.add = ModelCompact;
