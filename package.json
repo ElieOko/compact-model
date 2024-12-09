@@ -7,6 +7,12 @@
   },
   "author": "elieoko",
   "license": "ISC",
+  "files": ["README.md"],
+  "keywords": ["Compact", "Model", "Proxy"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ElieOko/compact-model.git"
+  },
   "description": "",
   "dependencies": {
     "axios": "^1.7.9",
